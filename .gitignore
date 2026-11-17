@@ -1,7 +1,9 @@
 plugged/
+autoload/
 backup/
 swap/
 undo/
 session/
 viminfo
+projects.txt
 *.swp

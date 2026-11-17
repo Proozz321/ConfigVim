@@ -1,2 +1,0 @@
-/home/proozz
-/home/proozz/Rs/Rust/Epub
