@@ -70,6 +70,7 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'voldikss/vim-floaterm'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'vimsence/vimsence'
 
 " Icones: precisa vir depois do nerdtree
 Plug 'ryanoasis/vim-devicons'
@@ -366,3 +367,11 @@ nnoremap <leader>t :FloatermNew --height=0.4 --width=0.8 --wintype=floating<CR>
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<c-b>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-z>"
+
+" --- Discord Rich Presence ---
+let g:vimsence_small_text = 'Vim'
+let g:vimsence_small_image = 'vim'
+let g:vimsence_editing_details = 'Editando: {}'
+let g:vimsence_editing_state = 'Projeto: {}'
+let g:vimsence_file_explorer_text = 'No NERDTree'
+let g:vimsence_file_explorer_details = 'Procurando arquivos'
