@@ -1,0 +1,7 @@
+plugged/
+backup/
+swap/
+undo/
+session/
+viminfo
+*.swp
