@@ -100,7 +100,7 @@ alias rvim='vim -u ~/.vim-rust/vimrc'
 └── .gitignore
 ```
 
-`plugged/`, `autoload/`, `backup/`, `swap/`, `undo/`, `session/` e o `viminfo` são gerados e não entram no repositório.
+`plugged/`, `autoload/`, `backup/`, `swap/`, `undo/`, `session/`, `viminfo` e `projects.txt` são locais e não entram no repositório..
 
 ## Dashboard
 
@@ -123,6 +123,7 @@ Abre sozinho quando o Vim inicia sem arquivo. De qualquer lugar, `<Space>h` volt
 | `l` | Atualizar plugins |
 | `q` | Sair |
 
+O `projects.txt` é local (não versionado). Cria o seu com um caminho por linha:
 Exemplo de `projects.txt`:
 
 ```
