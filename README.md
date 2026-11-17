@@ -22,7 +22,7 @@
 
 Um ambiente de Vim feito só para **Rust**, que vive inteiro dentro de `~/.vim-rust`. O `~/.vimrc` e o `~/.vim` normais ficam intactos: a config só é carregada quando o Vim abre com `-u`.
 
-## ✨ Recursos
+## Recursos
 
 | | |
 |---|---|
@@ -35,7 +35,7 @@ Um ambiente de Vim feito só para **Rust**, que vive inteiro dentro de `~/.vim-r
 | **Discord Rich Presence** | Mostra o que você está editando, via vimsence |
 | **Autoinstalável** | O vim-plug se baixa sozinho na primeira abertura |
 
-## 📋 Requisitos
+## Requisitos
 
 | Item | Para quê |
 |---|---|
@@ -68,7 +68,7 @@ vim -u ~/.vim-rust/vimrc
 Na primeira abertura o vim-plug é baixado e roda o `PlugInstall`. Se faltar algum plugin, roda `:PlugInstall` dentro do Vim.
 
 <details>
-<summary><b>⚡ Atalho no terminal (Fish, Bash e Zsh)</b></summary>
+<summary><b> Atalho no terminal (Fish, Bash e Zsh)</b></summary>
 
 <br>
 
@@ -130,7 +130,7 @@ Exemplo de `projects.txt`:
 ~/Projectos/outro-projeto
 ```
 
-## ⌨️ Atalhos
+## Atalhos
 
 O `<leader>` é a tecla **Espaço**.
 
@@ -178,22 +178,22 @@ O `<leader>` é a tecla **Espaço**.
 
 </details>
 
-## 🎨 Colorscheme
+## Colorscheme
 
 O `colors/proozz.vim` guarda a paleta num bloco no topo, entre os marcadores `NOCTALIA-START` e `NOCTALIA-END`. Para mudar as cores, edita só esse bloco. O fundo é sempre transparente, então o wallpaper aparece por trás do terminal.
 
 | Elemento | Cor |
 |---|---|
-| Keywords | 🟣 Roxo |
-| Funções | 🔵 Azul |
-| Tipos | 🟡 Amarelo |
-| Strings | 🟢 Verde |
-| Números e constantes | 🟠 Laranja |
-| Macros (`println!`) | 🩵 Ciano, em negrito |
-| `self` | 🔴 Vermelho, em itálico |
-| Comentários | ⚪ Cinza, em itálico |
+| Keywords | Roxo |
+| Funções | Azul |
+| Tipos | Amarelo |
+| Strings | Verde |
+| Números e constantes | Laranja |
+| Macros (`println!`) | Ciano, em negrito |
+| `self` | Vermelho, em itálico |
+| Comentários | Cinza, em itálico |
 
-## 🔌 Plugins
+## Plugins
 
 | Categoria | Plugins |
 |---|---|
